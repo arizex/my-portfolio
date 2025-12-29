@@ -1,7 +1,9 @@
 import React, { useState } from 'react';
 import { ChevronLeft, ChevronRight, ExternalLink, Github, Star, Eye } from 'lucide-react';
+import { projects } from './ProjectData';
 
-const ProjectSlider = ({ projects, currentSlide, setCurrentSlide }) => {
+const ProjectSlider = () => {
+  const [currentSlide, setCurrentSlide] = useState(0);
   const [imageLoaded, setImageLoaded] = useState({});
 
   const nextSlide = () => {

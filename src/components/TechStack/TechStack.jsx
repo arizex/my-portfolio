@@ -101,8 +101,8 @@ export default function TechStack() {
                     key={itemIndex}
                     className="relative group"
                     style={{
-                      marginLeft: '2px',
-                      marginRight: '2px'
+                      marginLeft: '4px',
+                      marginRight: '4px'
                     }}
                   >
                     {/* Hexagon dengan glow effect */}
